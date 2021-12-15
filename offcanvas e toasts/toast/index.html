@@ -11,16 +11,20 @@
 <body>
     <div class="container">
         <button class="btn btn-primary" onclick="showToast();">Meu Toast</button>
-        <div class="toast bg-info" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-                <h3>Meu Toast</h3>
-                <button class="btn-close" type="button" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-body">
-                <p>Lorem ipsum dolor sit amet consectetur</p>
-                <button class="btn btn-primary">Clique aqui</button>
+        
+        <div class="position-fixed top-50 start-50 translate-middle">
+            <div class="toast bg-info " role="alert" data-bs-autohide="false" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <h3>Meu Toast</h3>
+                    <button class="btn-close" type="button" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <button class="btn btn-primary">Clique aqui</button>
+                </div>
             </div>
         </div>
+        
 
     </div>
 
